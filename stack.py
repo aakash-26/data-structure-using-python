@@ -38,7 +38,7 @@ class Stack:
     
     def print_stack(self):
         if self.stack:
-            # print("\nstack elements are")
+            print("\n stack elements are")
             for i in self.stack[::-1]:
                 print(i)
                 print("↑")
